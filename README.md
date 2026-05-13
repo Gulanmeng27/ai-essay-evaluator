@@ -2,24 +2,25 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-MVP-orange.svg)]()
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-green.svg)]()
+[![LangChain](https://img.shields.io/badge/Powered%20by-LangChain-orange.svg)](https://langchain.com)
 
 > **Comparing Algorithmic and Generative Approaches to L2 Writing Assessment**
 > 
-> A systematic comparison of feature-based Linear Regression vs LLM-based (DeepSeek) scoring on the ELLIPSE Corpus, plus a product-grade demo application.
+> A production-grade AI writing evaluation system featuring Transformer architecture, Agentic Workflow, and RAG enhancement.
 
 ---
 
 ## 🎯 Project Overview
 
-**ZhiPing** tackles a real pain point in English education: writing feedback is slow, expensive, and inconsistent. 
+**ZhiPing** is an enterprise-level AI writing assessment platform that addresses real pain points in English education:
 
-| Problem | Our Solution |
-|---------|-------------|
+| Problem | Solution |
+|---------|----------|
 | Teacher takes 15 min per essay | AI scores in 5 seconds |
-| Different teachers give different scores | Consistent rubric-based scoring |
-| Students wait days for feedback | Instant, anytime feedback |
-| Feedback is often vague ("be more specific") | Concrete: quotes errors → explains → gives improved version |
+| Inconsistent grading | Rubric-aligned consistent scoring |
+| Generic feedback | Personalized, actionable suggestions |
+| Knowledge gaps | RAG-enhanced evidence-based evaluation |
 
 ### Key Results
 
@@ -28,7 +29,7 @@
 | Linear Regression (5 features) | 0.4438 | 0.3494 |
 | **DeepSeek LLM (temp=0.7)** | **0.6276** | **0.3200** |
 
-> 🚀 **LLM outperforms traditional feature-based scoring by 41% in correlation with human scores.**
+> 🚀 **LLM outperforms traditional scoring by 41% in correlation with human scores.**
 
 ---
 
@@ -37,19 +38,28 @@
 ```
 ai-essay-evaluator/
 ├── src/
-│   ├── feature_extraction.py    # Linguistic feature extraction (TTR, MTLD, etc.)
-│   ├── model.py                 # Linear Regression training & evaluation
-│   └── llm_client.py            # DeepSeek API client (scoring + feedback)
+│   ├── __init__.py
+│   ├── feature_extraction.py    # Linguistic features (TTR, MTLD, etc.)
+│   ├── model.py                 # Linear Regression model
+│   ├── llm_client.py            # DeepSeek API client
+│   ├── transformer_model.py     # Qwen2.5-7B Transformer wrapper
+│   ├── agent.py                 # LangChain Agentic Workflow
+│   ├── rag.py                   # RAG Knowledge Enhancement
+│   └── api.py                   # FastAPI REST Service
 ├── demo/
-│   └── app.py                   # Gradio demo with radar chart visualization
+│   └── app.py                   # Gradio demo with Agent/RAG support
 ├── docs/
 │   ├── PRD.md                   # Product Requirements Document
-│   └── competitive_analysis.md  # Competitive landscape analysis
+│   └── competitive_analysis.md  # Competitive Analysis
+├── knowledge_base/              # RAG knowledge documents
+│   ├── scoring_rubric.txt       # ELLIPSE scoring standards
+│   ├── grammar_rules.txt        # Grammar rules database
+│   └── writing_tips.txt         # Writing best practices
 ├── data/
-│   └── part1_predictions.csv    # Model predictions on 100-essay dev set
+│   └── part1_predictions.csv    # Experimental results
 ├── .env.example                 # API key template
 ├── .gitignore
-└── README.md
+└── requirements.txt             # All dependencies
 ```
 
 ---
@@ -67,79 +77,91 @@ cp .env.example .env
 # Edit .env and add your DeepSeek API key
 ```
 
-### 3. Run the Demo
+### 3. Run Demo
 ```bash
 python demo/app.py
 ```
 
-### 4. Try It
-Open the Gradio URL, paste an English essay, and get instant scoring + feedback.
+### 4. Run API Service
+```bash
+python -m uvicorn src.api:app --reload
+```
 
 ---
 
-## 📊 How It Works
+## 🧠 Cutting-Edge Technologies
 
-### Dual Scoring Engine
+### 1. Transformer Architecture
+- **Model**: Qwen2.5-7B-Instruct
+- **Quantization**: 4-bit NF4 (bitsandbytes)
+- **Fine-tuning**: LoRA with PEFT
+- **Attention**: Flash Attention 2
 
+```python
+from src.transformer_model import TransformerEvaluator
+
+evaluator = TransformerEvaluator("Qwen/Qwen2.5-7B-Instruct")
+score = evaluator.score_essay(essay_text)
 ```
-Essay Text
-    │
-    ├──► Feature Extraction ──► Linear Regression ──► Score + Feature Importance
-    │    (num_sent, MTLD, TTR,
-    │     num_words, para_div)
-    │
-    └──► DeepSeek LLM ──► Holistic Score (1.0-5.0) + Detailed Feedback
-         (Rubric-prompted,        (Grammar / Vocabulary / Organization / Content)
-          temperature=0.7)
+
+### 2. Agentic Workflow
+- **Framework**: LangChain Structured Chat Agent
+- **Tools**: Grammar analysis, vocabulary analysis, structure analysis, exercise generation
+- **Memory**: Conversation Buffer Memory
+
+```python
+from src.agent import EssayEvaluationAgent
+
+agent = EssayEvaluationAgent()
+result = agent.evaluate(essay_text, proficiency="mid")
 ```
 
-### Linguistic Features (Linear Regression)
+### 3. RAG Enhancement
+- **Vector Store**: FAISS
+- **Embeddings**: text-embedding-3-small
+- **Knowledge Base**: ELLIPSE rubric, grammar rules, writing tips
 
-| Feature | Coefficient | Interpretation |
-|---------|-------------|----------------|
-| `num_sent` | +0.0206 | More sentences → higher score |
-| `MTLD` | +0.0182 | Greater lexical diversity → higher score |
-| `TTR` | -0.0117 | Artifact of length control |
-| `num_words` | -0.0003 | Minimal influence |
-| `num_word_div_para` | -0.0006 | Minimal influence |
+```python
+from src.rag import RAGEnhancer
 
-### LLM Feedback Dimensions
+rag = RAGEnhancer()
+enhancement = rag.enhance_evaluation(essay_text)
+```
 
-| Dimension | What It Evaluates |
-|-----------|-------------------|
-| Grammar & Sentence Structure | Error patterns, tense consistency, run-ons |
-| Vocabulary Use | Word choice precision, collocations, register |
-| Organization & Coherence | Logical flow, cohesion devices, paragraphing |
-| Content & Ideas | Argument quality, evidence, persuasiveness |
+### 4. REST API
+- **Framework**: FastAPI
+- **Features**: Single/batch evaluation, health checks, rubric endpoint
+- **Production Ready**: Error handling, Pydantic validation
 
 ---
 
-## 🧪 Experimental Design
+## 📊 Evaluation Pipeline
 
-### Part 1: Automated Essay Scoring
-- **Data**: ELLIPSE Corpus (6,500 ELL essays, human-rated)
-- **Training**: 200 essays (random seed=42)
-- **Evaluation**: 100 essays
-- **Baselines**: Mean predictor, Random, Normalized word count
-- **LLM Conditions**: DeepSeek-chat-v3 @ temperature = [0.0, 0.3, 0.7, 1.0]
-
-### Part 2: Automated Writing Evaluation
-- **5 essays**: low/mid/high proficiency × Chinese L1 learners
-- **Models compared**: DeepSeek API vs Qwen2.5-1.5B (local)
-- **Feedback accuracy**: 87.9% valid (51/58 items across 5 essays)
+```
+Essay Input
+    │
+    ├──► Feature Extraction ──► Linear Regression ──► Baseline Score
+    │
+    ├──► LLM Scoring ──► Holistic Score (1.0-5.0)
+    │
+    ├──► Agent Analysis ──► Grammar/Vocab/Structure/Content Analysis
+    │
+    └──► RAG Retrieval ──► Evidence-Based Feedback
+            │
+            ▼
+    Comprehensive Evaluation Report
+```
 
 ---
 
 ## 🎨 Product Vision
 
-See `docs/PRD.md` for the full Product Requirements Document.
-
 ### Target Users
-| User | Pain Point | Value Prop |
-|------|-----------|------------|
+| User | Pain Point | Value Proposition |
+|------|-----------|-------------------|
 | College English Teachers | 60 essays × 15 min = 15 hours | Batch scoring in minutes |
-| IELTS Candidates | Practice writing without feedback | Instant, rubric-aligned feedback |
-| International Schools | High expat teacher costs | AI-assisted scoring consistency |
+| IELTS Candidates | Practice without feedback | Instant, rubric-aligned evaluation |
+| International Schools | High teacher costs | AI-assisted consistent scoring |
 
 ### Business Model
 - **C-end**: ¥29/month subscription
@@ -148,9 +170,11 @@ See `docs/PRD.md` for the full Product Requirements Document.
 
 ---
 
-## 🔒 Privacy
+## 🔒 Privacy & Security
 
-We support **local model deployment** (Qwen2.5-1.5B) for schools that require student data to remain on-premise. See the Part 2 notebook for local model setup instructions.
+- **Local Deployment**: Qwen2.5-1.5B can run on-premise
+- **API Key Protection**: Environment variable management
+- **Data Encryption**: HTTPS/TLS for API communications
 
 ---
 
@@ -162,10 +186,16 @@ MIT License
 
 ## 👩‍💻 Author
 
-- **Background**: B.A. in Chinese (Shenzhen University) + M.A. in Linguistics (City University of Hong Kong)
+- **Background**: B.A. in Chinese (Shenzhen University) + M.A. in Linguistics (CityU)
 - **Domain**: Computer-Assisted Language Learning (CALL), NLP, AI in Education
-- **This project**: Final project for CALL course, extended with product thinking
+- **Skills**: Python, Transformers, LangChain, RAG, FastAPI, Gradio
 
 ---
 
-> 💡 *This project demonstrates both technical depth (feature engineering, LLM API integration, experimental design) and product thinking (PRD, competitive analysis, demo application) — bridging the gap between research and product in AI education.*
+> 💡 **Project Highlights for Interviews**:
+> - ✅ Transformer architecture with LoRA fine-tuning
+> - ✅ Agentic workflow with tool selection
+> - ✅ RAG-enhanced knowledge retrieval
+> - ✅ Production-grade API service
+> - ✅ Full-stack demo application
+> - ✅ Academic validation with ELLIPSE corpus
