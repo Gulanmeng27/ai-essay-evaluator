@@ -11,6 +11,7 @@ Features:
 
 import sys
 import os
+import json
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 import gradio as gr
@@ -84,7 +85,7 @@ def analyze_with_ai(essay_text, proficiency, api_key, use_agent, use_rag):
             feedback = result
         else:
             score, raw, _ = llm_client.score_essay(essay_text, temperature=0.7)
-            feedback = llm_client.generate_feedback(essay_text, proficiency=proficiency)
+            feedback, _ = llm_client.generate_feedback(essay_text, proficiency=proficiency)
 
         per_dim_scores = [3.0, 3.0, 3.0, 3.0]
         radar = create_radar_chart(per_dim_scores)
@@ -94,7 +95,10 @@ def analyze_with_ai(essay_text, proficiency, api_key, use_agent, use_rag):
         rag_info = ""
         if use_rag and rag_enhancer:
             rag_data = rag_enhancer.enhance_evaluation(essay_text)
-            rag_info = f"📚 RAG Enhancement:\n\n**Scoring Rubric Reference:**\n{rag_data['rubric_reference'][:200]}..."
+            rubric_preview = json.dumps(
+                rag_data["rubric_reference"], ensure_ascii=False, indent=2
+            )[:200]
+            rag_info = f"📚 RAG Enhancement:\n\n**Scoring Rubric Reference:**\n{rubric_preview}..."
 
         return (
             score if score else 0,
