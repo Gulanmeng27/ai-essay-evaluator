@@ -1,3 +1,8 @@
+> **⚠️ See [REPORT_PIPELINE.md](REPORT_PIPELINE.md) for the actual implementation used in the LT6582 capstone report.**
+> The real pipeline (real RAG with local BGE-small + FAISS, the multi-step agentic workflow with self-correction,
+> the 4-condition AES experiment, and the audit tooling) lives in `real_pipeline/` with outputs in `results/`.
+> Some descriptions below are aspirational and are corrected in REPORT_PIPELINE.md.
+
 # 📝 智评 ZhiPing — AI-Powered English Writing Assessment
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
