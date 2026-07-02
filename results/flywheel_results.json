@@ -1,0 +1,38 @@
+{
+  "rounds": [
+    {
+      "round": 0,
+      "n_flagged": 24,
+      "n_false_positive": 8,
+      "fp_rate": 0.333
+    },
+    {
+      "round": 1,
+      "n_flagged": 23,
+      "n_false_positive": 4,
+      "fp_rate": 0.174
+    },
+    {
+      "round": 2,
+      "n_flagged": 29,
+      "n_false_positive": 6,
+      "fp_rate": 0.207
+    }
+  ],
+  "final_avoid_rules": [
+    "- Do NOT flag things like: \"The essay jumps from family to friends to teachers without a\" as \"Each paragraph should start with a topic sentence that tells the reader the main\" (was a false positive).",
+    "- Do NOT flag things like: \"I think people could do one of both...\" as \"The essay lacks a clear topic sentence for each paragraph. For instance, the fir\" (was a false positive).",
+    "- Do NOT flag things like: \"If you have been hurt in your home one your family members y\" as \"This point introduces a complex scenario (domestic abuse) but does not fully dev\" (was a false positive).",
+    "- Do NOT flag things like: \"Once I was afraid of speaking English... This is what is kno\" as \"Abrupt transition between examples; connection not clearly explained.\" (was a false positive).",
+    "- Do NOT flag things like: \"Of course, the success is certainly important , but please d\" as \"New idea introduced but not developed; conclusion feels abrupt.\" (was a false positive).",
+    "- Do NOT flag things like: \"I think people could do one of both if they need help they c\" as \"Lack of clear topic sentence; ideas mixed together without separation.\" (was a false positive).",
+    "- Do NOT flag things like: \"If you have been hurt in your home one your family members y\" as \"Underdeveloped example: does not explain why authorities first, nor connect to m\" (was a false positive).",
+    "- Do NOT flag things like: \"Once I was afraid of speaking English... This is what is kno\" as \"Abrupt transition: personal example to general statement lacks a linking sentenc\" (was a false positive).",
+    "- Do NOT flag things like: \"The people who has a positive attitude could never lacks the\" as \"Tone shift: informal, direct address and motivational tone inconsistent with ear\" (was a false positive).",
+    "- Do NOT flag things like: \"The essay jumps from a general discussion about technology t\" as \"Lack of clear topic sentences and paragraph structure; ideas are mixed together \" (was a false positive).",
+    "- Do NOT flag things like: \"...they can persuade me to make big choices...\" as \"'Persuade' is too strong; use 'guide' or 'help'.\" (was a false positive).",
+    "- Do NOT flag things like: \"...because when I go to high school those habits will help m\" as \"Connection between habits and future benefit is vague; explain how.\" (was a false positive).",
+    "- Do NOT flag things like: \"They must have a great dream that they could pursue in their\" as \"Word 'dream' is vague and overused; essay repeats 'great', 'successful', 'accomp\" (was a false positive).",
+    "- Do NOT flag things like: \"The essay jumps from 'mindset' to 'goals' to 'motivation' wi\" as \"Lacks clear topic sentences for each paragraph; ideas mixed together without sep\" (was a false positive)."
+  ]
+}
