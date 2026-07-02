@@ -35,7 +35,8 @@
       "dimension": "Grammar",
       "quote": "People are discussing about the limitation of human contact due to the use of technology had positive or negative effect on people's live.",
       "issue": "The phrase 'discussing about' is incorrect; 'had' should be 'has' for present tense; 'live' should be 'lives'.",
-      "correction": "People are discussing whether the limitation of human contact due to the use of technology has a positive or negative effect on people's lives."
+      "correction": "People are discussing whether the limitation of human contact due to the use of technology has a positive or negative effect on people's lives.",
+      "blind": "B"
     },
     {
       "item_id": 2,
@@ -45,7 +46,8 @@
       "dimension": "Vocabulary",
       "quote": "cause a big effect in teenager young",
       "issue": "'Teenager young' is not natural; 'big effect' is too simple.",
-      "correction": "cause a significant effect on teenagers"
+      "correction": "cause a significant effect on teenagers",
+      "blind": "B"
     },
     {
       "item_id": 3,
@@ -55,7 +57,8 @@
       "dimension": "Organisation",
       "quote": "he almost always leave with his friends to have a time to fun or do others thinks like when they having homework they go to the library...",
       "issue": "The paragraph about the brother is one very long sentence without clear breaks.",
-      "correction": "He almost always left with his friends to have fun or do other things. For example, when they had homework, they went to the library and looked for books to find information. In high school, he could learn a lot, but he never paid attention because he was always playing video games."
+      "correction": "He almost always left with his friends to have fun or do other things. For example, when they had homework, they went to the library and looked for books to find information. In high school, he could learn a lot, but he never paid attention because he was always playing video games.",
+      "blind": "B"
     },
     {
       "item_id": 4,
@@ -65,7 +68,8 @@
       "dimension": "Content",
       "quote": "Technology will be limitation in all society of this way we are helping to private of many things like accidents and young people can learn more.",
       "issue": "The sentence is confusing due to grammar and word choice; 'private' should be 'prevent'.",
-      "correction": "If we limit technology use in society, we can prevent many problems like accidents and help young people learn more."
+      "correction": "If we limit technology use in society, we can prevent many problems like accidents and help young people learn more.",
+      "blind": "B"
     },
     {
       "item_id": 5,
@@ -75,7 +79,8 @@
       "dimension": "Grammar",
       "quote": "For example, my brother he is a good student, he have great grade, he had a excellent person he always complete his homework, but when he being use your phone, video games, computer, he lost interest in his High School today he always used his phone...",
       "issue": "Run-on sentence with missing punctuation, subject-verb agreement errors ('he have' should be 'he has'), and tense inconsistency.",
-      "correction": "For example, my brother is a good student. He has great grades and always completed his homework. However, when he started using his phone, video games, and computer, he lost interest in high school. Now, he always uses his phone."
+      "correction": "For example, my brother is a good student. He has great grades and always completed his homework. However, when he started using his phone, video games, and computer, he lost interest in high school. Now, he always uses his phone.",
+      "blind": "A"
     },
     {
       "item_id": 6,
@@ -85,7 +90,8 @@
       "dimension": "Grammar",
       "quote": "However, technology it is not important because distract many people from real world and cause a big effect in teenager young.",
       "issue": "Sentence fragment with double subject ('technology it') and unclear verb subject; 'teenager young' is unclear.",
-      "correction": "However, technology is harmful because it distracts many people from the real world and has a big effect on young teenagers."
+      "correction": "However, technology is harmful because it distracts many people from the real world and has a big effect on young teenagers.",
+      "blind": "A"
     },
     {
       "item_id": 7,
@@ -95,7 +101,8 @@
       "dimension": "Vocabulary",
       "quote": "young people, important, use technology, find information",
       "issue": "Repetition of basic words and informal phrasing makes the essay monotonous.",
-      "correction": "Instead of 'young people,' try 'adolescents' or 'teenagers.' Instead of 'important,' use 'crucial' or 'significant.' Instead of 'find information,' use 'research' or 'gather data.'"
+      "correction": "Instead of 'young people,' try 'adolescents' or 'teenagers.' Instead of 'important,' use 'crucial' or 'significant.' Instead of 'find information,' use 'research' or 'gather data.'",
+      "blind": "A"
     },
     {
       "item_id": 8,
@@ -105,7 +112,8 @@
       "dimension": "Vocabulary",
       "quote": "he not talk with nobody",
       "issue": "Double negative is incorrect in standard English; 'nobody' should be 'anyone.'",
-      "correction": "He does not talk to anyone."
+      "correction": "He does not talk to anyone.",
+      "blind": "A"
     },
     {
       "item_id": 9,
@@ -115,7 +123,8 @@
       "dimension": "Organisation",
       "quote": "",
       "issue": "Lack of clear topic sentences and paragraph structure; the essay is one long block of text without breaks.",
-      "correction": "Organise into at least three paragraphs: Paragraph 1: Introduce topic and main argument. Paragraph 2: Brother's story as example. Paragraph 3: Solutions and conclusion."
+      "correction": "Organise into at least three paragraphs: Paragraph 1: Introduce topic and main argument. Paragraph 2: Brother's story as example. Paragraph 3: Solutions and conclusion.",
+      "blind": "A"
     },
     {
       "item_id": 10,
@@ -125,7 +134,8 @@
       "dimension": "Organisation",
       "quote": "Technology will be limitation in all society of this way we are helping to private of many things like accidents and young people can learn more.",
       "issue": "Missing transitions between ideas; connection between limiting technology, preventing accidents, and helping young people learn is unclear.",
-      "correction": "Therefore, if we limit technology use in society, we can prevent accidents and help young people learn more."
+      "correction": "Therefore, if we limit technology use in society, we can prevent accidents and help young people learn more.",
+      "blind": "A"
     },
     {
       "item_id": 11,
@@ -135,7 +145,8 @@
       "dimension": "Content",
       "quote": "People are discussing about the limitation of human contact due to the use of technology had positive or negative effect on people's live.",
       "issue": "Main argument is unclear and shifts; starts by asking if effect is positive or negative but mostly focuses on negative effects without developing counterargument.",
-      "correction": "State position clearly: 'While technology offers many benefits, I believe it has a negative effect on young people's education and social skills.' Then stick to supporting that idea."
+      "correction": "State position clearly: 'While technology offers many benefits, I believe it has a negative effect on young people's education and social skills.' Then stick to supporting that idea.",
+      "blind": "A"
     },
     {
       "item_id": 12,
@@ -145,7 +156,8 @@
       "dimension": "Content",
       "quote": "my brother he is a good student... he almost always leave with his friends... today he not have friends",
       "issue": "Example of brother is contradictory (leaves with friends but then has no friends), weakening the argument.",
-      "correction": "My brother used to be a good student who read books and went to the library with friends. However, after he started spending more time on his phone and video games, his grades dropped and he stopped socialising with his friends."
+      "correction": "My brother used to be a good student who read books and went to the library with friends. However, after he started spending more time on his phone and video games, his grades dropped and he stopped socialising with his friends.",
+      "blind": "A"
     },
     {
       "item_id": 13,
@@ -155,7 +167,8 @@
       "dimension": "Grammar",
       "quote": "As being the youngest child, I have gained wisdom from many different people, such as my family,my friends, and my teacher's, this has helped me to be a better person in life and grow as a person.",
       "issue": "Run-on sentence (two complete ideas joined without proper punctuation), 'teacher's' should be plural 'teachers', and missing space after comma.",
-      "correction": "As the youngest child, I have gained wisdom from many different people, such as my family, my friends, and my teachers. This has helped me to be a better person and grow in life."
+      "correction": "As the youngest child, I have gained wisdom from many different people, such as my family, my friends, and my teachers. This has helped me to be a better person and grow in life.",
+      "blind": "B"
     },
     {
       "item_id": 14,
@@ -165,7 +178,8 @@
       "dimension": "Vocabulary",
       "quote": "they can persuade me to make big choices about my future",
       "issue": "'Persuade' means to convince, but here 'help' or 'guide' is intended; 'big choices' is vague.",
-      "correction": "they can guide me to make important decisions about my future"
+      "correction": "they can guide me to make important decisions about my future",
+      "blind": "B"
     },
     {
       "item_id": 15,
@@ -175,7 +189,8 @@
       "dimension": "Organisation",
       "quote": "Many of my friends have shared wisdom with me...",
       "issue": "Essay jumps from family to friends to teachers without clear paragraph breaks; each group should be in its own paragraph.",
-      "correction": "Start a new paragraph for each group: family, friends, teachers, and add a short conclusion."
+      "correction": "Start a new paragraph for each group: family, friends, teachers, and add a short conclusion.",
+      "blind": "B"
     },
     {
       "item_id": 16,
@@ -185,7 +200,8 @@
       "dimension": "Content",
       "quote": "Getting wisdom from other people is very important because and can help grow because it is very important that I try to learn from others failure attempt and try to avoid doing the same thing wrong.",
       "issue": "Sentence is confusing due to repetition of 'very important' and grammar error 'because and can help grow'; idea is unclear.",
-      "correction": "Getting wisdom from other people is very important because it helps me learn from their mistakes and avoid making the same errors."
+      "correction": "Getting wisdom from other people is very important because it helps me learn from their mistakes and avoid making the same errors.",
+      "blind": "B"
     },
     {
       "item_id": 17,
@@ -195,7 +211,8 @@
       "dimension": "Grammar",
       "quote": "As being the youngest child, I have gained wisdom from many different people, such as my family,my friends, and my teacher's, this has helped me to be a better person in life and grow as a person.",
       "issue": "Run-on sentence and incorrect use of 'As being' and possessive 'teacher's'.",
-      "correction": "As the youngest child, I have gained wisdom from many different people, such as my family, my friends, and my teachers. This has helped me to be a better person and grow in life."
+      "correction": "As the youngest child, I have gained wisdom from many different people, such as my family, my friends, and my teachers. This has helped me to be a better person and grow in life.",
+      "blind": "A"
     },
     {
       "item_id": 18,
@@ -205,7 +222,8 @@
       "dimension": "Grammar",
       "quote": "I'am very grateful for my family because they have helped me make the correct choice in my life because of their wisdom the have shared with me.",
       "issue": "Typo 'I'am' should be 'I am' or 'I'm', and 'the have' should be 'they have'.",
-      "correction": "I am very grateful for my family because they have helped me make the correct choice in my life because of the wisdom they have shared with me."
+      "correction": "I am very grateful for my family because they have helped me make the correct choice in my life because of the wisdom they have shared with me.",
+      "blind": "A"
     },
     {
       "item_id": 19,
@@ -215,7 +233,8 @@
       "dimension": "Vocabulary",
       "quote": "they can persuade me to make big choices about my future",
       "issue": "Inappropriate word 'persuade' suggests pressure; should be 'guide' or 'help'.",
-      "correction": "they can guide me in making big choices about my future"
+      "correction": "they can guide me in making big choices about my future",
+      "blind": "A"
     },
     {
       "item_id": 20,
@@ -225,7 +244,8 @@
       "dimension": "Vocabulary",
       "quote": "try to learn from others failure attempt",
       "issue": "Uncommon phrase 'failure attempt'; should be 'failures' or 'mistakes', and 'others' needs apostrophe.",
-      "correction": "try to learn from others' failures and avoid making the same mistakes"
+      "correction": "try to learn from others' failures and avoid making the same mistakes",
+      "blind": "A"
     },
     {
       "item_id": 21,
@@ -235,7 +255,8 @@
       "dimension": "Organisation",
       "quote": "As being the youngest child, I have gained wisdom from many different people, such as my family,my friends, and my teacher's, this has helped me to be a better person in life and grow as a person.",
       "issue": "First sentence is too long and tries to cover too many ideas.",
-      "correction": "As the youngest child, I have learned wisdom from many people, including my family, friends, and teachers. Their advice has helped me become a better person."
+      "correction": "As the youngest child, I have learned wisdom from many people, including my family, friends, and teachers. Their advice has helped me become a better person.",
+      "blind": "A"
     },
     {
       "item_id": 22,
@@ -245,7 +266,8 @@
       "dimension": "Organisation",
       "quote": "Wisdom is very important because it helps everyone and can change peoples lives.",
       "issue": "Conclusion introduces a new idea instead of summarizing main points.",
-      "correction": "In conclusion, the wisdom I have received from my family, friends, and teachers has been very important in my life. It has helped me make better choices and grow as a person."
+      "correction": "In conclusion, the wisdom I have received from my family, friends, and teachers has been very important in my life. It has helped me make better choices and grow as a person.",
+      "blind": "A"
     },
     {
       "item_id": 23,
@@ -255,7 +277,8 @@
       "dimension": "Content",
       "quote": "Getting wisdom from other people is very important because and can help grow because it is very important that I try to learn from others failure attempt and try to avoid doing the same thing wrong.",
       "issue": "Repetitive and confusing sentence; idea is good but needs clearer expression.",
-      "correction": "Learning from others' mistakes is important because it helps me avoid making the same errors and grow as a person."
+      "correction": "Learning from others' mistakes is important because it helps me avoid making the same errors and grow as a person.",
+      "blind": "A"
     },
     {
       "item_id": 24,
@@ -265,7 +288,8 @@
       "dimension": "Content",
       "quote": "Wisdom is very important because it helps everyone and can change peoples lives.",
       "issue": "Too broad; conclusion should focus on personal experience.",
-      "correction": "The wisdom I have gained from my family, friends, and teachers has changed my life by helping me make better decisions and treat others with respect."
+      "correction": "The wisdom I have gained from my family, friends, and teachers has changed my life by helping me make better decisions and treat others with respect.",
+      "blind": "A"
     },
     {
       "item_id": 25,
@@ -275,7 +299,8 @@
       "dimension": "Grammar",
       "quote": "Some people make through decisions on their own, because If people made their decisions and that people might not relay own experts although some people may say It helps when you have a another opinion from someone.",
       "issue": "Sentence is very long and confusing with missing words, incorrect capitalization, and grammatical error 'a another'.",
-      "correction": "Some people make their own decisions, but others might not rely on experts. However, some people say it helps to have another opinion from someone."
+      "correction": "Some people make their own decisions, but others might not rely on experts. However, some people say it helps to have another opinion from someone.",
+      "blind": "A"
     },
     {
       "item_id": 26,
@@ -285,7 +310,8 @@
       "dimension": "Vocabulary",
       "quote": "there might be serve consequences subside",
       "issue": "'serve' is a misspelling of 'severe', and 'subside' does not fit the intended meaning.",
-      "correction": "there might be severe consequences, or they might hurt someone else."
+      "correction": "there might be severe consequences, or they might hurt someone else.",
+      "blind": "A"
     },
     {
       "item_id": 27,
@@ -295,7 +321,8 @@
       "dimension": "Organisation",
       "quote": "To begin with If people seek guidance from experts, for example If someone wanted to move to another state and they can't decide they could get advice from a expert, lastly If people are abused or hurt from someone.",
       "issue": "Uses 'To begin with' and 'lastly' in the same paragraph, causing confusion, and ideas jump without clear connection.",
-      "correction": "First, if people seek guidance from experts, they can get helpful advice. For example, someone who wants to move to another state but can't decide could ask an expert. Second, if people are hurt or abused, they should talk to the authorities first, then an expert."
+      "correction": "First, if people seek guidance from experts, they can get helpful advice. For example, someone who wants to move to another state but can't decide could ask an expert. Second, if people are hurt or abused, they should talk to the authorities first, then an expert.",
+      "blind": "A"
     },
     {
       "item_id": 28,
@@ -305,7 +332,8 @@
       "dimension": "Content",
       "quote": "I think people could do one of both if they need help they can get it",
       "issue": "Idea is repeated but not fully explained; 'one of both' is unclear and the reasoning is incomplete.",
-      "correction": "I think people can choose one option or both. If they need help, they can get it from experts, but they can also make decisions on their own."
+      "correction": "I think people can choose one option or both. If they need help, they can get it from experts, but they can also make decisions on their own.",
+      "blind": "A"
     },
     {
       "item_id": 29,
@@ -315,7 +343,8 @@
       "dimension": "Grammar",
       "quote": "people should talk to a expert",
       "issue": "Missing article 'an' before vowel sound.",
-      "correction": "people should talk to an expert"
+      "correction": "people should talk to an expert",
+      "blind": "B"
     },
     {
       "item_id": 30,
@@ -325,7 +354,8 @@
       "dimension": "Grammar",
       "quote": "I think people could do one of both if they need help they can get it",
       "issue": "Run-on sentence missing punctuation or conjunction.",
-      "correction": "I think people could do one of both: if they need help, they can get it."
+      "correction": "I think people could do one of both: if they need help, they can get it.",
+      "blind": "B"
     },
     {
       "item_id": 31,
@@ -335,7 +365,8 @@
       "dimension": "Grammar",
       "quote": "there might be serve consequences",
       "issue": "Incorrect word form: 'serve' should be adjective 'severe'; 'consequences' should be plural.",
-      "correction": "there might be severe consequences"
+      "correction": "there might be severe consequences",
+      "blind": "B"
     },
     {
       "item_id": 32,
@@ -345,7 +376,8 @@
       "dimension": "Vocabulary",
       "quote": "people might not relay own experts",
       "issue": "Incorrect word choice: 'relay' should be 'rely on'; 'own experts' is unclear.",
-      "correction": "people might not rely on experts"
+      "correction": "people might not rely on experts",
+      "blind": "B"
     },
     {
       "item_id": 33,
@@ -355,7 +387,8 @@
       "dimension": "Vocabulary",
       "quote": "you have not feel better if you talked to a stranger",
       "issue": "Misplaced 'not' and inconsistent verb tense.",
-      "correction": "you might not feel better if you talked to a stranger"
+      "correction": "you might not feel better if you talked to a stranger",
+      "blind": "B"
     },
     {
       "item_id": 34,
@@ -365,7 +398,8 @@
       "dimension": "Organisation",
       "quote": "",
       "issue": "Missing clear topic sentences for paragraphs; essay jumps between points without transitions.",
-      "correction": "For the first paragraph, start with: 'One reason to seek expert guidance is to gain a second opinion.'"
+      "correction": "For the first paragraph, start with: 'One reason to seek expert guidance is to gain a second opinion.'",
+      "blind": "B"
     },
     {
       "item_id": 35,
@@ -375,7 +409,8 @@
       "dimension": "Organisation",
       "quote": "I think people could do one of both if they need help they can get it",
       "issue": "Repetition of the same idea verbatim at beginning and end.",
-      "correction": "In conclusion, people can both seek help and make their own decisions, as long as they have support when needed."
+      "correction": "In conclusion, people can both seek help and make their own decisions, as long as they have support when needed.",
+      "blind": "B"
     },
     {
       "item_id": 36,
@@ -385,7 +420,8 @@
       "dimension": "Content",
       "quote": "If you have been hurt in your home one your family members you can talk to the authorities not an expert because the authorities can remove the abuser and after you can talk to a expert",
       "issue": "Contradictory logic: first says 'not an expert' then says 'after you can talk to an expert'.",
-      "correction": "If you have been hurt by a family member, you should first talk to the authorities, who can remove the abuser. After that, you can talk to an expert for emotional support."
+      "correction": "If you have been hurt by a family member, you should first talk to the authorities, who can remove the abuser. After that, you can talk to an expert for emotional support.",
+      "blind": "B"
     },
     {
       "item_id": 37,
@@ -395,7 +431,8 @@
       "dimension": "Content",
       "quote": "if you tell an expert you probably have to pay money, for example the expert might not support you all the way",
       "issue": "Underdeveloped argument: connection between paying money and lack of support is not explained.",
-      "correction": "One drawback of seeking expert help is the cost. For example, if you can only afford a few sessions, the expert might not be able to support you through the entire process."
+      "correction": "One drawback of seeking expert help is the cost. For example, if you can only afford a few sessions, the expert might not be able to support you through the entire process.",
+      "blind": "B"
     },
     {
       "item_id": 38,
@@ -405,7 +442,8 @@
       "dimension": "Grammar",
       "quote": "The success is depends on your attitude",
       "issue": "The verb 'is' and 'depends' are both used together incorrectly; only one main verb is needed.",
-      "correction": "Success depends on your attitude"
+      "correction": "Success depends on your attitude",
+      "blind": "B"
     },
     {
       "item_id": 39,
@@ -415,7 +453,8 @@
       "dimension": "Vocabulary",
       "quote": "a heart fill of positive attitude",
       "issue": "'Fill' is not the correct word form; an adjective like 'full' or a phrase like 'filled with' is needed.",
-      "correction": "a heart full of positive attitude"
+      "correction": "a heart full of positive attitude",
+      "blind": "B"
     },
     {
       "item_id": 40,
@@ -425,7 +464,8 @@
       "dimension": "Organisation",
       "quote": "",
       "issue": "The essay jumps between ideas without clear transition words, making it hard to follow.",
-      "correction": "Add linking phrases like 'For example,' 'Similarly,' or 'In conclusion' to guide the reader."
+      "correction": "Add linking phrases like 'For example,' 'Similarly,' or 'In conclusion' to guide the reader.",
+      "blind": "B"
     },
     {
       "item_id": 41,
@@ -435,7 +475,8 @@
       "dimension": "Content",
       "quote": "Who could easily succeed before doesn't experiences any sorrows and failures?",
       "issue": "The question is grammatically confusing and unclear, though the idea is good.",
-      "correction": "Who can succeed easily without experiencing any sorrows or failures?"
+      "correction": "Who can succeed easily without experiencing any sorrows or failures?",
+      "blind": "B"
     },
     {
       "item_id": 42,
@@ -445,7 +486,8 @@
       "dimension": "Grammar",
       "quote": "The success is depends on your attitude",
       "issue": "Double verb error: 'is' and 'depends' are both verbs, but only one is needed.",
-      "correction": "Success depends on your attitude."
+      "correction": "Success depends on your attitude.",
+      "blind": "A"
     },
     {
       "item_id": 43,
@@ -455,7 +497,8 @@
       "dimension": "Grammar",
       "quote": "Common people do not have any courages to face to difficulties",
       "issue": "'Courages' is uncountable; 'face to' should be 'face'; 'any' is fine but 'the' is better.",
-      "correction": "Common people do not have the courage to face difficulties."
+      "correction": "Common people do not have the courage to face difficulties.",
+      "blind": "A"
     },
     {
       "item_id": 44,
@@ -465,7 +508,8 @@
       "dimension": "Vocabulary",
       "quote": "a heart fill of positive attitude",
       "issue": "'Fill' is a verb, but an adjective like 'full' is needed; 'positive attitude' is vague.",
-      "correction": "a heart full of positivity"
+      "correction": "a heart full of positivity",
+      "blind": "A"
     },
     {
       "item_id": 45,
@@ -475,7 +519,8 @@
       "dimension": "Vocabulary",
       "quote": "repaies from many sides about learning and understunding what the true art was",
       "issue": "'Repaies' is not a word; likely 'rewards'; 'understunding' is a spelling error; 'from many sides' is unclear.",
-      "correction": "rewards in many ways for learning and understanding what true art was."
+      "correction": "rewards in many ways for learning and understanding what true art was.",
+      "blind": "A"
     },
     {
       "item_id": 46,
@@ -485,7 +530,8 @@
       "dimension": "Organisation",
       "quote": "",
       "issue": "The essay jumps between ideas without clear transitions, making it feel disjointed.",
-      "correction": "Add a transition sentence: 'Similarly, in my own life, I faced a challenge when I was afraid of speaking English.'"
+      "correction": "Add a transition sentence: 'Similarly, in my own life, I faced a challenge when I was afraid of speaking English.'",
+      "blind": "A"
     },
     {
       "item_id": 47,
@@ -495,7 +541,8 @@
       "dimension": "Content",
       "quote": "A famous painter from Italy once suffered lots of pains with drawing so much eggs... he liked to Said :\"\"why my teacher always wanted me to drew the damn egg\"\" before he became the almost most famous artist around the world.",
       "issue": "The story is unclear and the quote is confusing; 'almost most famous' is awkward.",
-      "correction": "The famous Italian painter Leonardo da Vinci once complained to his teacher about having to draw eggs repeatedly. He did not yet understand that this practice was building his skill. Later, he realized that a positive attitude toward this tedious task helped him master the basics of art."
+      "correction": "The famous Italian painter Leonardo da Vinci once complained to his teacher about having to draw eggs repeatedly. He did not yet understand that this practice was building his skill. Later, he realized that a positive attitude toward this tedious task helped him master the basics of art.",
+      "blind": "A"
     },
     {
       "item_id": 48,
@@ -505,7 +552,8 @@
       "dimension": "Grammar",
       "quote": "To be somebody in a world that would make someone else can be a great accomplishment if they willing to put in the work or effort into it.",
       "issue": "The phrase 'that would make someone else' is unclear, and 'if they willing' is missing the verb 'are'.",
-      "correction": "To become somebody in a world that often tries to make you into someone else is a great accomplishment, but only if you are willing to put in the work and effort."
+      "correction": "To become somebody in a world that often tries to make you into someone else is a great accomplishment, but only if you are willing to put in the work and effort.",
+      "blind": "B"
     },
     {
       "item_id": 49,
@@ -515,7 +563,8 @@
       "dimension": "Vocabulary",
       "quote": "What's that make a great a accomplishment is the mind set, the goals, success, and motivation.",
       "issue": "'mind set' should be 'mindset', 'a great a accomplishment' has an extra 'a', and 'What's that make' is grammatically incorrect and informal.",
-      "correction": "What makes a great accomplishment is mindset, goals, success, and motivation."
+      "correction": "What makes a great accomplishment is mindset, goals, success, and motivation.",
+      "blind": "B"
     },
     {
       "item_id": 50,
@@ -525,7 +574,8 @@
       "dimension": "Organisation",
       "quote": "The mind set is the first thing to be somebody in a world to make a great accomplishment is that they must have a good reputation, credentials, and status. They must have a great dream that they could pursue in their lives that could come true.",
       "issue": "Ideas jump from 'mindset' to 'reputation' to 'dream' without clear connections, making the paragraph feel like a list.",
-      "correction": "The first step to becoming somebody is developing the right mindset. This means building a good reputation, earning credentials, and gaining status. A person with this mindset will also have a great dream to pursue—one that can actually come true."
+      "correction": "The first step to becoming somebody is developing the right mindset. This means building a good reputation, earning credentials, and gaining status. A person with this mindset will also have a great dream to pursue—one that can actually come true.",
+      "blind": "B"
     },
     {
       "item_id": 51,
@@ -535,7 +585,8 @@
       "dimension": "Content",
       "quote": "On the contrary, these successful people that could accomplish any task in the workforce or in the society the lived in. The motivation they have.",
       "issue": "'On the contrary' is used incorrectly (no contrast), 'in the society the lived in' is missing 'they', and the idea about motivation is introduced but not developed.",
-      "correction": "Moreover, these successful people can accomplish any task in the workforce or in the society they live in, thanks to the motivation they have."
+      "correction": "Moreover, these successful people can accomplish any task in the workforce or in the society they live in, thanks to the motivation they have.",
+      "blind": "B"
     },
     {
       "item_id": 52,
@@ -545,7 +596,8 @@
       "dimension": "Grammar",
       "quote": "To be somebody in a world that would make someone else can be a great accomplishment if they willing to put in the work or effort into it.",
       "issue": "The sentence is grammatically incomplete and confusing; 'if they willing' is missing the verb 'are'.",
-      "correction": "To become somebody in a world that often tries to make you somebody else can be a great accomplishment, if you are willing to put in the work and effort."
+      "correction": "To become somebody in a world that often tries to make you somebody else can be a great accomplishment, if you are willing to put in the work and effort.",
+      "blind": "A"
     },
     {
       "item_id": 53,
@@ -555,7 +607,8 @@
       "dimension": "Grammar",
       "quote": "What's that make a great a accomplishment is the mind set, the goals, success, and motivation.",
       "issue": "The sentence has several problems: 'What's that make' should be 'What makes'; 'a great a accomplishment' has a double article; and the structure is awkward.",
-      "correction": "What makes a great accomplishment is mindset, goals, success, and motivation."
+      "correction": "What makes a great accomplishment is mindset, goals, success, and motivation.",
+      "blind": "A"
     },
     {
       "item_id": 54,
@@ -565,7 +618,8 @@
       "dimension": "Vocabulary",
       "quote": "They must have a great dream that they could pursue in their lives that could come true.",
       "issue": "The word 'dream' is vague and informal for academic writing; 'great dream' is repetitive.",
-      "correction": "They must have a clear ambition that they can pursue and achieve in their lives."
+      "correction": "They must have a clear ambition that they can pursue and achieve in their lives.",
+      "blind": "A"
     },
     {
       "item_id": 55,
@@ -575,7 +629,8 @@
       "dimension": "Vocabulary",
       "quote": "Everyday, these civilized people get motivated everyday to be themselves to be the most successful person in the world.",
       "issue": "'Civilized people' is an odd and potentially inappropriate word choice; 'everyday' vs. 'every day' is confused.",
-      "correction": "Every day, these successful people get motivated to be themselves and strive to be the most successful person they can be."
+      "correction": "Every day, these successful people get motivated to be themselves and strive to be the most successful person they can be.",
+      "blind": "A"
     },
     {
       "item_id": 56,
@@ -585,7 +640,8 @@
       "dimension": "Organisation",
       "quote": "",
       "issue": "The essay jumps between ideas without clear paragraph breaks or topic sentences; it is one long paragraph.",
-      "correction": "Break your essay into paragraphs with topic sentences, e.g., introduction with thesis, then paragraphs on mindset, goals, motivation, and conclusion."
+      "correction": "Break your essay into paragraphs with topic sentences, e.g., introduction with thesis, then paragraphs on mindset, goals, motivation, and conclusion.",
+      "blind": "A"
     },
     {
       "item_id": 57,
@@ -595,7 +651,8 @@
       "dimension": "Content",
       "quote": "However, the mind set or goal should never forget on what they are pursuing in.",
       "issue": "The idea that people should not forget their goals is not developed; no explanation of why people lose track or how to avoid it.",
-      "correction": "Add a sentence or two to develop this point: 'However, many people lose sight of their goals due to distractions or lack of discipline. To avoid this, they should regularly review their progress and remind themselves why they started.'"
+      "correction": "Add a sentence or two to develop this point: 'However, many people lose sight of their goals due to distractions or lack of discipline. To avoid this, they should regularly review their progress and remind themselves why they started.'",
+      "blind": "A"
     }
   ]
 }
